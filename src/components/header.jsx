@@ -1,4 +1,4 @@
-import styled, { ThemeProvider } from 'styled-components';
+import styled from 'styled-components';
 
 const HeaderDiv = styled.header`
 width: 100vw;
@@ -23,13 +23,25 @@ color: ${props => props.theme.texts};
     margin-left: 20px;
     font-size:.9em;
 }
+@media (min-width: 375px){
+    margin: 0 45px 0 45px;
+    font-size:.7em;
+}
+@media (min-width: 425px){
+    margin: 0 70px 0 70px;
+    font-size:.7em;
+}
+@media (min-width: 768px){
+    margin: 0 50px 0 50px;
+    font-size:1em;
+}
 @media (min-width: 960px) {
     margin-left: 95px;
-    font-size:2em;
+    font-size:1.3em;
 }
 @media (min-width: 1024px) {
     margin-left: 20px;
-    font-size:2em;
+    font-size:1.5em;
 }
 `,
     DarkMode = styled.div`
@@ -43,15 +55,26 @@ color: ${props => props.theme.texts};
 
 @media (min-width: 320px) {
     margin-right: 20px;
-    font-size:.9em;
+}
+@media (min-width: 375px){
+    margin: 0 45px 0 45px;
+    font-size:.7em;
+}
+@media (min-width: 425px){
+    margin: 0 70px 0 70px;
+    font-size:.7em;
+}
+@media (min-width: 768px){
+    margin: 0 50px 0 50px;
+    font-size:1em;
 }
 @media (min-width: 960px) {
     margin-right: 95px;
-    font-size:2em;
+    font-size:1.3em;
 }
 @media (min-width: 1024px) {
     margin-right: 20px;
-    font-size:2em;
+    font-size:1.5em;
 }
 `,
     DarkModeIcon = styled.i`
