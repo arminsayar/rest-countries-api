@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/html-css-javascript-react-styledcomponent-and-axios-xjemVs94V)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/restcountriesapi-YBVv0wBjx)
 - Live Site URL: [Live Site](https://whereintheworld01.netlify.app/)
 
 ### Built with
