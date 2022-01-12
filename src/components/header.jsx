@@ -43,6 +43,9 @@ color: ${props => props.theme.texts};
     margin-left: 20px;
     font-size:1.5em;
 }
+@media (min-width: 1440px) {
+    margin-left: 30px;
+}
 `,
     DarkMode = styled.div`
 margin-right: 48px;
@@ -75,6 +78,9 @@ color: ${props => props.theme.texts};
 @media (min-width: 1024px) {
     margin-right: 20px;
     font-size:1.5em;
+}
+@media (min-width: 1440px) {
+    margin-right: 30px;
 }
 `,
     DarkModeIcon = styled.i`

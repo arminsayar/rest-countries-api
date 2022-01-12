@@ -70,6 +70,10 @@ background-color: ${props => props.theme.elements};
     width:35vw;
     margin: 0 20px 0 20px;
 }
+@media (min-width: 1440px) {
+    width:35vw;
+    margin: 0 30px 0 30px;
+}
 
 `,
     FilterInput = styled.div`
@@ -106,6 +110,9 @@ padding:6px 0 6px 0;
 @media (min-width: 1024px) {
     margin: 0 20px 0 20px; 
 }
+@media (min-width: 1440px) {
+    margin: 0 30px 0 30px;
+}
 `,
     SearchIcon = styled.i`
 position:absolute;
@@ -131,6 +138,9 @@ font-size:15px;
 }
 @media (min-width: 1024px) { 
     left:35px;
+}
+@media (min-width: 1440px) {
+    left:50px;
 }
 `,
     FilterIcon = styled.i`
@@ -168,7 +178,7 @@ font-size:15px;
     left:97.5%;
 }
 @media (min-width: 1440px) { 
-    left:97%;
+    left:96.2%;
 }
 @media (min-width: 1750px) { 
     left:97.5%;
